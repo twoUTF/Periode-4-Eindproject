@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../FontAwesome/fontawesome-all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="../CSS/Main.css">
+        <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+</head>
+<body>
+
+<div class="MenuIcon">
+    <!--Icon to open menu-->
+    <i class="fas fa-bars" onclick="MenuDrop();"></i>
+</div>
+
+<div id="Menu" class="Menu">
+    <!--Drop down menu-->
+    <i class="fas fa-times" onclick="MenuUp();"></i>
+    <nav>
+        <ul>
+            <li><a class="Menulist" href="#">Home</a></li>
+            <li><a onmouseover="MenuListDrop();" onmouseout="MenuListUp();" class="Dropdown" href="#">More</a>
+            <div id="DropdownElements" class="DropdownElements">
+                <nav>
+                    <ul onmouseover="MenuListDrop();" onmouseout="MenuListUp();">
+                        <li><a href="#">Something 1</a></li>
+                        <li><a href="#">Something 2</a></li>
+                        <li><a href="#">Something 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </li>
+            <li><a class="Menulist" href="#">Contact me</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+<header class="SlideHorizontal1">
+    <!--First 3-pic swiper-->
+
+    <div class="container">
+        <div class="slider_wrapper">
+            <ul id="image_slider">
+                <li><img width="1520" height="758" src="http://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/wallpaper-background-124.jpg"></li>
+                <li><img width="1520" height="758" src="https://www.desktopbackground.org/download/o/2010/04/24/6998_fish-aquarium-hd-wallpapers-for-desktop-3d_1920x1080_h.jpg"></li>
+                <li><img width="1520" height="758" src="https://i.imgur.com/0c1ZJGQ.jpg"></li>
+            </ul>
+
+            <span class="nvgt" id="prev"></span>
+            <i id="Right" class="fas fa-arrow-right"></i>
+            <span class="nvgt" id="next"></span>
+            <i id="Left" class="fas fa-arrow-left"></i>
+        </div>
+        <ul id="pager">
+        </ul>
+    </div>
+</header>
+
+<div class="Text1">
+    <!--First text area-->
+<h2>A very interesting title</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolor dolores esse explicabo, iusto mollitia nam natus nobis obcaecati odit quibusdam quod, ratione reprehenderit repudiandae rerum sequi soluta temporibus voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deserunt dolores est neque nostrum praesentium quo repellat saepe suscipit vel! Adipisci deleniti distinctio facere incidunt iusto natus non repellendus suscipit!</p>
+</div>
+
+<div class="Text2">
+    <!--Second text area with FA symbols-->
+    <div class="FA1">
+        <i class="fas fa-bug"></i>
+        <h2>One Thing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium autem incidunt ipsum iusto minima molestiae nisi officiis, rem rerum similique? Amet cumque incidunt ipsum magni maiores quisquam rerum temporibus vitae.</p>
+
+    </div>
+    <div class="FA2">
+        <i class="fas fa-code"></i>
+        <h2>Two Thing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem delectus doloremque excepturi facilis hic impedit in possimus quasi qui quibusdam quidem quod reiciendis repudiandae similique sunt, suscipit ut voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    </div>
+    <div class="FA3">
+        <i class="fas fa-microchip"></i>
+        <h2>Three Thing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nemo pariatur voluptates. Ab aliquid aspernatur beatae commodi delectus deleniti eaque eius laboriosam laborum nisi nulla quia quod sit ut, veniam.</p>
+
+    </div>
+
+</div>
+
+<div class="SlideVertical1">
+    <!--First vertical slider-->
+    <div class="Text3">
+        <h2>An image slides by</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid blanditiis, corporis nostrum pariatur possimus sed voluptas. Accusamus beatae, consectetur, dolorem labore molestiae officiis omnis quidem quis rerum sit temporibus voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem et fuga hic minima quas. Culpa dolorum ex perferendis quisquam? Accusamus commodi enim exercitationem neque nostrum omnis perspiciatis totam voluptatibus voluptatum.</p>
+    </div>
+
+    <div class="PictureSlide">
+
+    </div>
+
+</div>
+
+<footer class="Footer">
+    <!--Bottom menu-->
+    <div class="Links1">
+        <nav>
+            <ul>
+                <h3>These</h3>
+                <li><a href="#">Hey</a></li>
+                <li><a href="#">Come</a></li>
+                <li><a href="#">Click</a></li>
+                <li><a href="#">These</a></li>
+                <li><a href="#">Links</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="Links2">
+        <nav>
+            <ul>
+                <h3>Are</h3>
+                <li><a href="#">It</a></li>
+                <li><a href="#">Will</a></li>
+                <li><a href="#">Definitely</a></li>
+                <li><a href="#">Not</a></li>
+                <li><a href="#">Give</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="Links3">
+        <nav>
+            <ul>
+                <h3>Links</h3>
+                <li><a href="#">You</a></li>
+                <li><a href="#">A</a></li>
+                <li><a href="#">Virus</a></li>
+                <li><a href="#">For</a></li>
+                <li><a href="#">Sure</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</footer>
+
+</body>
+</html>
+<script src="../JAVASCRIPT/Main.js"></script>
+
+<!--Website waar deze website op is gebaseerd: http://pages.revox.io/frontend/1.1.0/html/01/-->
+<!---->

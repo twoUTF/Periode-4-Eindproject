@@ -1,0 +1,259 @@
+html body {
+  display: inherit;
+  z-index: 1;
+  background-color: #626262;
+  margin: 0 auto; }
+  html body .MenuIcon {
+    font-size: 200%;
+    padding: 1%;
+    color: white;
+    position: fixed;
+    z-index: 9; }
+  html body .Menu {
+    background-color: black;
+    opacity: 50%;
+    margin-top: 0;
+    padding-bottom: .5%;
+    padding-top: 1%;
+    width: 12%;
+    min-width: 200px;
+    height: 200%;
+    position: fixed;
+    display: none;
+    z-index: 10; }
+    html body .Menu .fas {
+      color: white;
+      font-size: 200%;
+      padding-left: 10%; }
+    html body .Menu nav ul {
+      display: flex;
+      justify-content: left;
+      flex-direction: column; }
+      html body .Menu nav ul li {
+        display: inline;
+        font-size: 150%;
+        padding: 2%; }
+        html body .Menu nav ul li a {
+          font-family: 'Open Sans', sans-serif; }
+        html body .Menu nav ul li .DropdownElements {
+          font-size: 50%;
+          display: none; }
+          html body .Menu nav ul li .DropdownElements nav ul {
+            padding-left: 0; }
+        html body .Menu nav ul li a {
+          color: darkgrey;
+          text-decoration: none;
+          opacity: 50%;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 90%;
+          font-weight: bold; }
+          html body .Menu nav ul li a:hover {
+            color: white;
+            opacity: 50%; }
+  html body .SlideHorizontal1 {
+    position: static;
+    z-index: 8;
+    height: 100%;
+    width: 79.3%; }
+    html body .SlideHorizontal1 .slider_wrapper {
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+      width: 126%;
+      top: auto; }
+    html body .SlideHorizontal1 #image_slider {
+      position: relative;
+      height: auto;
+      list-style: none;
+      overflow: hidden;
+      float: left;
+      /*Chrom default padding for ul is 40px */
+      padding: 0px;
+      margin: 0px; }
+      html body .SlideHorizontal1 #image_slider li {
+        position: relative;
+        float: left; }
+    html body .SlideHorizontal1 i {
+      position: absolute;
+      top: 47.5%;
+      color: white;
+      font-weight: bold;
+      font-size: 200%;
+      z-index: 7; }
+    html body .SlideHorizontal1 #Right {
+      right: .8%; }
+    html body .SlideHorizontal1 #Left {
+      left: .8%; }
+    html body .SlideHorizontal1 .nvgt {
+      z-index: 8;
+      position: absolute;
+      top: 45.3%;
+      height: 7.5%;
+      width: 3%;
+      opacity: 0.3; }
+      html body .SlideHorizontal1 .nvgt:hover {
+        opacity: 0.9; }
+    html body .SlideHorizontal1 #prev {
+      background: #000 url("https://dl.dropboxusercontent.com/u/65639888/image/prev.png") no-repeat center;
+      left: 0; }
+    html body .SlideHorizontal1 #next {
+      background: #000 url("https://dl.dropboxusercontent.com/u/65639888/image/next.png") no-repeat center;
+      right: 0; }
+    html body .SlideHorizontal1 #pager {
+      display: none; }
+  html body .Text1 {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100%;
+    max-width: 2000px;
+    position: center;
+    min-height: 300px;
+    max-height: 600px;
+    margin-top: -.4%;
+    display: flex;
+    justify-content: space-around; }
+    html body .Text1 h2 {
+      margin: 0;
+      margin-right: 10%;
+      padding-left: 7%;
+      padding-top: 2%;
+      font-size: 400%;
+      font-family: 'Open Sans', sans-serif;
+      color: #2c2c2c;
+      font-weight: 500; }
+    html body .Text1 p {
+      color: #626262;
+      padding-top: 2%;
+      padding-right: 3%;
+      font-size: 150%;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 350; }
+  html body .Text2 {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 2000px;
+    height: 100%;
+    min-height: 300px;
+    max-height: 600px; }
+    html body .Text2 .FA1 {
+      padding: 5%;
+      padding-top: 5.4%;
+      padding-bottom: 2%; }
+      html body .Text2 .FA1 i {
+        font-size: 400%;
+        color: dimgrey; }
+      html body .Text2 .FA1 h2 {
+        padding-top: 3%;
+        margin-bottom: 2.5%;
+        font-size: 150%;
+        font-family: 'Open Sans', sans-serif;
+        color: #2c2c2c;
+        font-weight: 600; }
+      html body .Text2 .FA1 p {
+        margin-top: 2.5%;
+        color: #626262;
+        font-size: 125%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 350; }
+    html body .Text2 .FA2 {
+      padding: 5%;
+      padding-left: 0%;
+      padding-bottom: 2%; }
+      html body .Text2 .FA2 i {
+        font-size: 400%;
+        color: dimgrey; }
+      html body .Text2 .FA2 h2 {
+        padding-top: 3%;
+        margin-bottom: 2.5%;
+        font-size: 150%;
+        font-family: 'Open Sans', sans-serif;
+        color: #2c2c2c;
+        font-weight: 600; }
+      html body .Text2 .FA2 p {
+        margin-top: 2.5%;
+        color: #626262;
+        font-size: 125%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 350; }
+    html body .Text2 .FA3 {
+      padding: 5%;
+      padding-left: 0%;
+      padding-bottom: 2%; }
+      html body .Text2 .FA3 i {
+        font-size: 400%;
+        color: dimgrey; }
+      html body .Text2 .FA3 h2 {
+        padding-top: 3%;
+        margin-bottom: 2.5%;
+        font-size: 150%;
+        font-family: 'Open Sans', sans-serif;
+        color: #2c2c2c;
+        font-weight: 600; }
+      html body .Text2 .FA3 p {
+        margin-top: 2.5%;
+        color: #626262;
+        font-size: 125%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 350; }
+  html body .SlideVertical1 {
+    display: flex;
+    position: inherit;
+    z-index: -5;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    min-height: 500px;
+    max-width: 2000px;
+    max-height: 1000px;
+    background-color: rgba(255, 255, 255, 0.92); }
+    html body .SlideVertical1 .Text3 {
+      padding-left: 5%;
+      padding-right: 3%; }
+      html body .SlideVertical1 .Text3 h2 {
+        padding-top: 3%;
+        font-size: 250%;
+        font-family: 'Open Sans', sans-serif;
+        color: #2c2c2c;
+        font-weight: 600; }
+      html body .SlideVertical1 .Text3 p {
+        color: #626262;
+        font-size: 125%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 350; }
+    html body .SlideVertical1 .PictureSlide {
+      background-image: url("https://www.wallpaperu3.com/wp-content/mywallpapers/water-drops-on-apple-wallpaper-4k.jpg");
+      min-height: 100%;
+      min-width: 40%;
+      background-attachment: fixed;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 5%;
+      margin: 2%;
+      background-size: 85%;
+      margin-right: 7%; }
+  html body .Footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #1a1a1a;
+    max-width: 2000px; }
+    html body .Footer ul {
+      list-style-type: none; }
+      html body .Footer ul h3 {
+        font-size: 125%;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-weight: 400; }
+      html body .Footer ul li {
+        margin-top: 10%; }
+        html body .Footer ul li a {
+          font-family: 'Open Sans', sans-serif;
+          text-decoration: none;
+          color: white; }
+          html body .Footer ul li a:hover {
+            color: darkgrey; }
+
+/*# sourceMappingURL=Main.css.map */
